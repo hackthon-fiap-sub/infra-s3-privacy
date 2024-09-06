@@ -18,5 +18,5 @@ variable "versioning_status" {
 variable "role_name" {
   description = "Nome da role IAM para acessar o bucket S3"
   type        = string
-  default     = "s3-access-role"
+  default     = "s3-access-privacy-role"
 }
